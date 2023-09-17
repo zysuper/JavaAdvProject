@@ -1,0 +1,8 @@
+server.tomcat.uri-encoding: UTF-8
+server.tomcat.accept-count: 1000
+server.tomcat.max-connections: 20000
+server.tomcat.threads.max: 800
+server.tomcat.threads.min-spare: 100
+management.endpoints.web.exposure.include: '*'
+management.endpoints.web.base-path: /actuator
+management.endpoint.shutdown.enabled: true

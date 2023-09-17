@@ -1,0 +1,11 @@
+server.undertow.threads.io: 800
+# 默认值是IO线程数*8
+server.undertow.threads.worker: 8000
+server.undertow.buffer-size: 1024
+server.undertow.direct-buffers: true
+
+
+
+management.endpoints.web.exposure.include: '*'
+management.endpoints.web.base-path: /actuator
+management.endpoint.shutdown.enabled: true
