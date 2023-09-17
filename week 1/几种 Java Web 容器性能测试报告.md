@@ -224,7 +224,7 @@ echo "server is starting，you can check the ${BASE_DIR}/logs/${SERVER_NAME}.out
    
    ![](./assets/2023-09-17-15-42-22-image.png)
 4. 直接用 netty 写到 http 服务端，居然比 spring-boot webflux 的实现的性能表现还差一点，这说明代码还有需要优化的部分。比如跑的过程中，就观察到 `tcp_tw` 超过了 5k，需要尝试下压一压 timewait 是否有更加的性能表现。
-5. tomcat nio2 在优化了模型和设置堆资源的相关参数之后，对响应时间对改善确实明显。有图为证：
+5. tomcat nio2 在高延迟场景，在优化了模型和设置堆资源的相关参数之后，对响应时间改善确实明显。有图为证：
    
    ![](./assets/2023-09-17-18-01-53-image.png)
    
