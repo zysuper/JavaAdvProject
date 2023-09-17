@@ -80,6 +80,8 @@ echo "server is starting，you can check the ${BASE_DIR}/logs/${SERVER_NAME}.out
 - 时间设置：Ramp-up period(inseconds)的值设为对应线程数的1/10；
 - 测试总时长：约等于500ms x 200次 x 8 = 800s = 13分
 
+
+## 06-下面会有很多 `boring` 测试过程图，建议直接省流看结论部分 [点击跳转](https://github.com/zysuper/JavaAdvProject/blob/master/week%201/%E5%87%A0%E7%A7%8D%20Java%20Web%20%E5%AE%B9%E5%99%A8%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A.md#06-%E6%B5%8B%E8%AF%95%E7%BB%93%E8%AE%BA)
 ## 05-核心接口的测试结果
 
 ### 一、低延迟接口
