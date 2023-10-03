@@ -1,0 +1,17 @@
+server:
+  port: 9001
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.3.222:3306/hero_all?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+# 定义Actuator访问路径
+management.endpoints.web.base-path: /actuator
+# 开启endpoint 关闭服务功能
+management.endpoint.shutdown.enabled: true
+spring.application.name: case3
+# 暴露/actuator/prometheus，如果配置了* ，则可以不配置这一行
+management.endpoints.web.exposure.include: 'prometheus'
+# 暴露的数据中添加application label
+management.metrics.tags.application: ${spring.application.name}
