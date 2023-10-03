@@ -104,6 +104,10 @@ gc 平局时间和最大暂停时间优于 ps-po 模式
 
 # 响应时间优先，高延迟接口(CMS)
 
+## gc easy 报告
+
+TODO:: 使用次数受限，暂时没法获取了.
+
 ## jvm 报告
 
 ![img.png](gc-cms-jvm-1.png)
