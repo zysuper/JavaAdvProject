@@ -62,6 +62,8 @@ gc 平局时间和最大暂停时间优于 ps-po 模式
 
 # 大内存收集器，低延时接口(G1)
 
+输出文件 [gc-g-one-fast.lo](./gc-g-one-fast.log)
+
 ## gc easy 报告
 
 ![img.png](pics/gc-g1-easy-1.png)
@@ -104,15 +106,17 @@ gc 平局时间和最大暂停时间优于 ps-po 模式
 
 # 响应时间优先，高延迟接口(CMS)
 
+输出文件 [gc-ps-po-slow.log](gc-ps-po-slow.log)
+
 ## gc easy 报告
 
 TODO:: 使用次数受限，暂时没法获取了.
 
 ## jvm 报告
 
-![img.png](gc-cms-jvm-1.png)
-![img.png](gc-cms-jvm-2.png)
+![img.png](pics/gc-cms-jvm-slow-1.png)
+![img.png](pics/gc-cms-jvm-slow-2.png)
 
 ## jmeter 报告
 
-![img.png](gc-cms-jmeter-1.png)
+![img.png](pics/gc-cms-jmeter-slow-1.png)
