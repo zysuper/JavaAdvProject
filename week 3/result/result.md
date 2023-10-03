@@ -85,6 +85,8 @@ gc 平局时间和最大暂停时间优于 ps-po 模式
 
 # 吞吐量优先，高延迟接口(PS-PO)
 
+输出文件 [gc-ps-po-slow.log](gc-ps-po-slow.log)
+
 ## gc easy 报告
 
 ![img.png](pics/gc-easy-th-slow-1.png)
@@ -106,7 +108,7 @@ gc 平局时间和最大暂停时间优于 ps-po 模式
 
 # 响应时间优先，高延迟接口(CMS)
 
-输出文件 [gc-ps-po-slow.log](gc-ps-po-slow.log)
+输出文件 [gc-parnew-cms-slow.log](./gc-parnew-cms-slow.log)
 
 ## gc easy 报告
 
