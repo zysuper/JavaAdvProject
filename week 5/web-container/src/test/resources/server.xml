@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<server>
+    <port>8080</port>
+    <routes>
+        <route>
+            <uri>/aaa/bbb/userServlet.do</uri>
+            <cls>com.demo.servlet.TestServlet</cls>
+        </route>
+    </routes>
+</server>
