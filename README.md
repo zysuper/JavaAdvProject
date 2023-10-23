@@ -5,3 +5,4 @@
 * [第三周作业这里](./week%203/result/result.md)
 * [第四周作业这里](./week%204/readme.md)
 * [第五周作业这里](./week%205/readme.md)
+* [第六周作业这里](./week%206/readme.md)
