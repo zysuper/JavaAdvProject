@@ -4,7 +4,7 @@
 
 一条 SQL 语句在 MySQL 中是如何执行的？
 
-![image-20231023163130939](../../../../.config/Typora/typora-user-images/image-20231023163130939.png)
+![image-20231023163130939](./pics/readme.md)
 
 如上图，步骤如下：
 
